@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+  <title>Save The Plant</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=0">
+  <link rel="stylesheet" type="text/css" href="style/style2.css">
+  
+</head>
+
+<body>
+    <div class="welcome-page">
+        <img id="title" src="style/images/festerinvasion.png" alt="festerinvasion">
+        <a href="DYK.php">
+            <img id="play" src="style/images/Play.png" alt="play">
+        </a>
+        <img id="options" src="style/images/Options.png" onclick="showOptionPage()" alt="options">
+        <img id="howToPlay" src="style/images/How To Play.png" onclick="showHowToPlayPage()" alt="how to play">
+    </div>
+    
+    <div class="option-page">
+        <img id="optionPane" src="style/images/OptionsPanel.png" alt="options pane">
+        <img id="musicTitle" src="style/images/music.png" alt="music title">
+        <img id="sfxTitle" src="style/images/sfx.png" alt="sfx title">
+        <input type="range" min="0" max="100" value="50" class="slider" id="musicRange" step="25">
+        <input type="range" min="0" max="100" value="50" class="slider" id="sfxRange" step="25">
+        <img id="backButton" src="style/images/Back.png" onclick="showWelcomePage()" alt="back button">
+        
+        <div id="result"></div>
+        <div id="result1"></div>
+    </div>
+    
+    <div class="howToPlay-page">
+        <img id="optionPane" src="style/images/OptionsPanel.png" alt="options pane">
+        <img id="divider" src="style/images/Divider.png" alt="divider">
+        <img id="movement" src="style/images/Movement.png" alt="movement">
+        <img id="movementGIF" src="style/images/Movement.gif" alt="moving gif">
+        <img id="movementGunGIF" src="style/images/MovementWithGun.gif" alt="moving with gun gif">
+        <img id="attack" src="style/images/Attack.png" alt="attack">
+        <img id="left" src="style/images/Left Arrow.png" alt="left">
+        <img id="right" src="style/images/Right Arrow.png" alt="right">
+        <img id=leftAttack src="style/images/Left.png" alt="left">
+        <img id="rightAttack" src="style/images/Right.png" alt="right">
+        <img id="upAttack" src="style/images/Up.png" alt="up">
+        <img id="backButton" src="style/images/Back.png" onclick="showWelcomePage()" alt="back button">
+        
+    </div>
+    
+    <script src="script/option.js"></script>
+</body>
+</html>

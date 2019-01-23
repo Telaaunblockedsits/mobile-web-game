@@ -1,0 +1,208 @@
+@media (orientation: landscape) {
+html {
+    background: url("images/background.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+body {
+    background: url("images/questionPanel.png") no-repeat;
+    background-size: 100% 100%; 
+    height: 80%;
+    width: 80%;
+    position: absolute;
+    text-align: left;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 4%;
+    padding-right: 4%;
+    word-wrap: break-word;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#q {
+    width: 15%;
+    transform: translate(-10%, 50%); 
+    position: relative;
+}
+
+#qProgress {
+    transform: translate(680%, -50%);
+    position: relative;
+    width: 9%;
+}
+
+#qNo {
+    transform: translate(650%, -50%);
+    position: relative;
+    width: 9%;
+}
+
+#qTotal {
+    transform: translate(620%, -50%);
+    position: relative;
+    width: 9%;
+}
+
+#btn1, #btn2, #btn3, #btn4 {
+    background: url("images/button.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border: none;
+    outline: none;
+    height: 20%;
+    width: 40%;
+    border-radius: 10px;
+    font-size: 3vw;
+    font-weight: bold;
+    position: absolute;
+    word-wrap: break-word;
+    bottom: 55%;
+}
+
+#btn1:hover, #btn2:hover,#btn3:hover, #btn4:hover {
+    box-shadow: 0 0 3vw rgba(46, 229, 157, 1);
+}
+
+#btn1 {
+    transform: translate(5%, 150%);
+}
+
+#btn2 {
+    transform: translate(125%, 150%);
+}
+#btn3 {
+    transform: translate(5%, 260%);
+}
+
+#btn4 {
+    transform: translate(125%, 260%);
+}
+
+#question {
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-size: 5vw;
+    text-indent: 10%;
+    position: relative;
+    top: -1.8em;
+    left: 2%;
+    cursor: default;
+}
+}
+@media (orientation: portrait) {
+    html {
+        background: url("images/background.png") no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+    }
+    
+    body {
+        background: url("images/questionPanel.png") no-repeat;
+        background-size: 100% 100%; 
+        height: 80%;
+        width: 80%;
+        position: absolute;
+        text-align: left;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding-left: 4%;
+        padding-right: 4%;
+        word-wrap: break-word;
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+    
+    #q {
+        width: 22%;
+        transform: translate(-15%, 97%); 
+        position: relative;
+    }
+    
+    #qProgress {
+        transform: translate(280%, -20%);
+        position: relative;
+        width: 15%;
+    }
+    
+    #qNo {
+        transform: translate(250%, -20%);
+        position: relative;
+        width: 15%;
+    }
+    
+    #qTotal {
+        transform: translate(220%, -20%);
+        position: relative;
+        width: 15%;
+    }
+    
+    #btn1, #btn2, #btn3, #btn4 {
+        background: url("images/button.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        border: none;
+        outline: none;
+        height: 20%;
+        width: 40%;
+        border-radius: 10px;
+        font-size: 5vw;
+        font-weight: bold;
+        position: absolute;
+        word-wrap: break-word; 
+    }
+    
+    #btn1:hover, #btn2:hover,#btn3:hover, #btn4:hover {
+        box-shadow: 0 0 3vw rgba(46, 229, 157, 1);
+    }
+    
+    #btn1 {
+        transform: translate(5%, 170%);
+    }
+    
+    #btn2 {
+        transform: translate(125%, 170%);
+    }
+    #btn3 {
+        transform: translate(5%, 290%);
+    }
+    
+    #btn4 {
+        transform: translate(125%, 290%);
+    }
+    
+    #question {
+        font-weight: bold;
+        color: rgb(255, 255, 255);
+        font-size: 8vw;
+        text-indent: 15%;
+        position: relative;
+        top: -5%;
+        cursor: default;
+    }
+    }
